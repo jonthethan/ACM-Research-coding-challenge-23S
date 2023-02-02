@@ -1,9 +1,9 @@
-### Well hello there!
-
-This repository is meant to provide an example for *forking* a repository on GitHub.
-
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
-
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
-
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+Hi! I decided to find some averages across the entire data set and also most common occurences of items. Here is how I went about doing this:
+1. Copy and paste all data from .csv file to .txt file
+2. For every line, make a new Star object and populate data, also keep track of how many of each type, color, and spectral classes there are
+3. Calculate average temperature, luminosity, Radius, and Absolute magnitude of set
+4. Make three similar methods to find most common occurence of type, color, and spectral class:
+  a. Make an array that holds the number of items of each type
+  b. Find the maximum of that array
+  c. Index matching maximum corresponds to most common occurence
+  d. Output to screen
